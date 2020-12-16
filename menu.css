@@ -1,5 +1,9 @@
 
-#foodImages {
+html{
+  scroll-behavior: smooth;
+}
+
+.foodImages {
     display: block;
     width: 400px;
     height: 300px;
@@ -30,6 +34,11 @@ table{
     box-shadow: 5px 5px 5px #1e1e1e;
     background-color: #aabbaa;
     border-radius: 90px;
+}
+
+#top{
+  float: left;
+  position: fixed;
 }
 
 #category{
@@ -79,7 +88,5 @@ p{
     #foodImages{
         width: auto;
     }
-
-    
 
 }
